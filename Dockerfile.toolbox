@@ -1,0 +1,8 @@
+FROM us-central1-docker.pkg.dev/database-toolbox/toolbox/toolbox:latest
+
+# Bundle this repository's toolbox configuration into the toolbox image.
+COPY mcp_toolbox/tools.yaml /app/tools.yaml
+
+EXPOSE 5000
+
+CMD ["--tools-file=/app/tools.yaml"]

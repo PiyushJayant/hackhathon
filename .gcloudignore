@@ -1,0 +1,10 @@
+.venv/
+mcp/
+devrel-demos/
+__pycache__/
+*.pyc
+.git/
+.env
+alloydb-auth-proxy
+toolbox-*
+*.db

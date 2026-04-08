@@ -1,0 +1,25 @@
+# Environment & secrets
+.env
+*.db
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# External codelab repos (not our code)
+mcp/
+devrel-demos/
+
+# Binaries
+alloydb-auth-proxy
+toolbox-*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
