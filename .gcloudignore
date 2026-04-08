@@ -1,10 +1,32 @@
+# Python
 .venv/
-mcp/
-devrel-demos/
 __pycache__/
 *.pyc
+*.pyo
+
+# Git
 .git/
+.gitignore
+
+# Secrets
 .env
+
+# External repos (not our code)
+mcp/
+devrel-demos/
+
+# Binaries
 alloydb-auth-proxy
 toolbox-*
+
+# Data files
 *.db
+
+# IDE
+.vscode/
+.idea/
+
+# Not needed in Cloud Build
+README.md
+.env.example
+cleanup/
